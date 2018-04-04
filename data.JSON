@@ -1,0 +1,41 @@
+{
+"career":{
+"info":  "To pursue a challenging career."
+},
+"education":[
+ {
+   "degree":"ssc",
+   "school":"bhashyam",
+   "data":["2012","90%"]
+ },{
+   "degree":"Intermediate",
+   "data":["2013","85%"]
+ },{
+   "degree":"Graduation",
+   "school":"sree vidyanikethan",
+   "school":"NRI",
+   "data":["2019","80%"]
+ }
+],
+"skills":[
+  {
+    "name":"operating system",
+    "info":["windows","linux","fedora","ubuntu","redhat"]
+  },
+  {
+      "name":"languages",
+      "info":["c","data structures","c++","core java","python"]
+  },
+  {
+    "name":"databases",
+    "info":["oracle","Mysql","mongoDB","cybase"]
+  },
+  {
+    "name":"Web technologies",
+    "info":["html","css","javascript"]
+  },
+  {
+    "name":"Frameworks",
+    "info":["bootstrap",".net"]
+  }
+]}

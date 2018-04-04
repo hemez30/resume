@@ -1,5 +1,5 @@
 body{
- background: #ddd;
+ background: #157;
 }
 .flex-parent{
  display: flex;
@@ -30,4 +30,94 @@ img{
  border-radius: 50%;
  height: 150px;
  width:  150px;
+}
+h1,#roll{
+  text-align: center;
+  text-transform: capitalize;
+}
+a{
+  text-decoration: none;
+}
+td{
+  padding:2%
+}
+tr:nth-child(odd)
+{
+  background-color: skyblue;
+}
+tr:nth-child(even)
+{
+  background-color: orange;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+  .flex-parent{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  .profile{
+   width: 100%;
+   height: auto;
+   background: #fff;
+   margin: 2%;
+   padding: 1%;
+   border: 2px solid #000;
+  }
+  .content{
+   width: 100%;
+   height: auto;
+   background: #fff;
+   margin: 2%;
+   padding: 1%;
+   border: 2px solid #000;
+  }
+}
+@media only screen and (min-width:480px) and (max-width:760px)
+{
+  .flex-parent{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  .profile{
+   width: 100%;
+   height: auto;
+   background: #fff;
+   margin: 2%;
+   padding: 1%;
+   border: 2px solid #000;
+  }
+  .content{
+   width: 100%;
+   height: auto;
+   background: #fff;
+   margin: 2%;
+   padding: 1%;
+   border: 2px solid #000;
+  }
+}
+  @media only screen and (min-width:761px) and (max-width:1024px)
+  {
+    .flex-parent{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    }
+    .profile{
+     width: 100%;
+     height: auto;
+     background: pink;
+     margin: 2%;
+     padding: 1%;
+     border: 2px solid #000;
+    }
+    .content{
+     width: 100%;
+     height: auto;
+     background: pink;
+     margin: 2%;
+     padding: 1%;
+     border: 2px solid #000;
+    }
 }
